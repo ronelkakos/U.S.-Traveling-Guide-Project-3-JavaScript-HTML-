@@ -1,0 +1,108 @@
+/* CSS Document for Project 3
+Ronel Kakos
+ITWP 1100
+File: styleofproject3.css
+*/
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+nav {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+body {
+    background-color:rgb(226, 239, 245);
+    color:midnightblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.city-images {
+    display: flex;
+}
+
+.city-images img {
+    width: 30%; 
+    margin: 0 30px; 
+}
+
+/* Feedback Form */
+
+#feedback-form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#feedback-form label {
+    margin-bottom: 5px;
+}
+
+#feedback-form input,
+#feedback-form select,
+#feedback-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#feedback-form textarea {
+    height: 100px;
+}
+
+#feedback-form button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#feedback-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#dateTimeMessage {
+    font-size: x-large;
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+/* FAQ section */
+
+dt {
+    background-color: #3d88ba;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+dd {
+    display: none;
+    background-color: #fff;
+    padding: 10px;
+}

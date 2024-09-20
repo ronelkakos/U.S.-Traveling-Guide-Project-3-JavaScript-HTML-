@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Project 3 Page 3</title>
+        
+        <link rel="stylesheet" type="text/css" href="styleofproject3.css">
+        <script src="js/timedate.js" defer></script>
+        <script src="js/formvalid.js" defer></script>
+        <script src="js/userfeedback.js" defer></script>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Las Vegas Travel Guide</h1>
+        </header>
+        <hr>
+
+        <nav>
+            <a href="defaultpage.html">Home</a> - <a href="page1.html">New York City, New York</a> - <a href="page2.html">Orlando, Florida</a>
+            - <a href="page3.html">Las Vegas, Nevada</a>
+            <hr>
+        </nav>
+
+        <main>
+            <h2>Las Vegas, Nevada</h2>
+
+            <p>
+                The city of Las Vegas is known as the "Entertainment Capital of the World". Las Vegas, Nevada, is a vibrant 
+                city with a phenomenal nightlife that attracts millions of visitors every year. Over 40.8 million tourists
+                visited Las Vegas in 2023. Las Vegas, Nevada is located and situated in the Mojave Desert in the western United 
+                States. There are a wide range of unlimited activities and entertainment to visiting numerous hotels on the strip,
+                seeing the various popular pools in the resorts, playing casinos, visiting downtown Las Vegas, experiencing the sporting events, 
+                live shows, and so much more. Over the years, Las Vegas has gotten popular with sports, moving an NFL football team from 
+                Oakland to Las Vegas which is now known as the Las Vegas Raiders, and also adding a new NHL hockey team known 
+                as the Las Vegas Knights. With its iconic skyline adorned with glittering lights and towering hotels, Las Vegas is 
+                a city unlike any other, which offers a blend of charm, luxury, and endless entertainment possibilities for millions
+                of people that visit the city every year.
+            </p>
+
+            <p>
+                From the moment you arrive in Las Vegas, you're greeted by the dazzling spectacle of the famous Las Vegas 
+                Strip, which is a stretch of road lined with some of the most extravagant and phenomenal resorts, casinos, 
+                and entertainment venues in the world. Each hotel along the Strip boasts its own unique theme and attractions,
+                from the ancient wonders of Egypt at the Luxor Hotel to the allure of Paris at the Paris Las Vegas Hotel. 
+                The city's skyline is punctuated by iconic landmarks like the towering High Roller ferris wheel and the 
+                beautiful fountains at Bellagio, creating a mesmerizing backdrop for visitors as they explore the vibrant 
+                streets below. You can also visit the iconic New York-New York Hotel, which has a roller coaster that goes 
+                through its buildings! In the Las Vegas Strip, each hotel has a unique style that makes you feel like your 
+                in a whole different dimension or even in certain cities that exist in other parts of the world like Paris 
+                and New York. In Las Vegas, there are always new imaginations that come into place that you never imagine
+                was possible. Just recently as of late 2023, a new venue called the MSG Sphere, which is shaped like a globe 
+                opened up for future concerts to be held which looks spectacular from the outside and the inside. Also, a 
+                new hotel opened up called the Fontainebleu Las Vegas, which provides world class restaurants and a vibrant
+                nightlife. You will always see something new every 2-3 years in Las Vegas ranging from either new hotels, venues,
+                or even entertainment activities. 
+            </p>
+
+            <p>
+                Las Vegas offers a wealth of experiences waiting to be discovered. Visitors can explore the city's thriving 
+                arts and culture scene, with world-class museums, galleries, and performing arts venues showcasing everything 
+                from contemporary art to Broadway-style productions. The city's culinary scene is equally impressive, with 
+                celebrity chefs and award-winning restaurants serving up gourmet cuisine from around the world. For 
+                those seeking adventure, Las Vegas is just a short drive away from breathtaking natural wonders like Red 
+                Rock Canyon, and the Hoover Dam offering endless opportunities for outdoor exploration 
+                and adventure. Las Vegas's economy is driven by its thriving tourism industry, which supports a wide range 
+                of businesses, hotels, and entertainment venues. The city's famous casinos and resorts attract millions of 
+                visitors from around the world, contributing to its status as "Entertainment Capital of the World". With its 
+                unique entertainment options, vibrant nightlife, and luxurious amenities, Las Vegas truly lives up to its 
+                reputation as the ultimate playground for adults. Whether you're hitting the slots, catching a show, or 
+                exploring the stunning desert landscapes, Las Vegas promises an unforgettable experience for visitors of all ages.
+            </p>
+
+            
+            <hr>
+            <h3>Places to Visit in Las Vegas</h3>
+            <ul>
+                <li>Las Vegas Strip</li>
+                <li>Fremont Street Experience</li>
+                <li>Bellagio Fountains</li>
+                <li>The Mandalay Bay Hotel</li>
+                <li>Caesers Palace Hotel</li>
+                <li>The Forum Shops at Caesers Palace</li>
+                <li>MSG Sphere</li>
+                <li>Mandalay Bay Hotel</li>
+                <li>Paris Las Vegas</li>
+                <li>New York-New York Las Vegas</li>
+                <li>The LINQ Promenade</li>
+                <li>Gordon Ramsay Steak at Paris Las Vegas</li>
+                <li>Hell's Kitchen at Caesars Palace</li>
+                <li>The Mob Museum</li>
+                <li>The High Roller Ferris Wheel</li>
+                <li>Hoover Dam</li>
+                <li>Red Rock Canyon National Conservation Area</li>
+            </ul>
+
+            <br>
+            <img src="images/lasvegaspic02.jpg" alt="Las Vegas Strip" title="View of the Las Vegas Strip" height="270" width="400">
+            <img src="images/lasvegaspic03.jpg" alt="The MSG Sphere in Las Vegas" title="The MSG Sphere lighting up in Las Vegas" height="270" width="400">
+            <img src="images/lasvegaspic04.jpg" alt="Forum Shops at Caesers Palace Las Vegas" title="Forum Shops Building at Caesers Palace in Las Vegas" height="270" width="400">
+            <br>
+
+
+            <!-- Time and Date -->
+            <br>
+            <div id="dateTimeMessage"></div>
+
+             <!-- Feedback form -->
+             <div id="feedback-form">
+                <h3>Feedback Form</h3>
+                <form id="feedbackForm" action="mailto:kakosr342@macomb.edu" method="post" enctype="text/plain">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+
+                    <label for="email">Email: (xxxxx@xxxxx.com)</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+                    <label for="phone">Phone Number: (###-###-####)</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Enter your phone number">
+
+                    <label>Choose Options (what did you like the most?):</label><br>
+                    <input type="checkbox" id="hotel" name="option" value="hotel">
+                    <label for="hotel">Hotel Experiences</label><br>
+
+                    <input type="checkbox" id="dining" name="option" value="dining">
+                    <label for="dining">Dining Experiences</label><br>
+
+                    <input type="checkbox" id="entertainment" name="option" value="entertainment">
+                    <label for="entertainment">Entertainment Choices</label><br>
+
+                    <input type="checkbox" id="attractions" name="option" value="attractions">
+                    <label for="attractions">Attractions</label><br>
+
+                    <input type="checkbox" id="shopping" name="option" value="shopping">
+                    <label for="shopping">Shopping Destinations</label><br>
+
+                    <input type="checkbox" id="events" name="option" value="events">
+                    <label for="events">Event Experiences</label><br>
+                    <br>
+                    <br>
+
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" required placeholder="Enter your comments"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <hr>
+        
+        </main>
+        <footer>
+            <hr>
+            <p id="validation">
+                <a href="https://validator.w3.org/nu/?doc=http://kakosr126.macombserver.net/itwp1100/project3/page3.html" title="HTML5 Validation">HTML5 Validation</a> | 
+                <a href="../home.htm" title="Back to the course homepage">Course Homepage</a>
+            </p>
+            <hr>
+        </footer>
+        
+    </body>
+</html>
